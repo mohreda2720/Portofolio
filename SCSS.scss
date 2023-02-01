@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #4CAF50;
+}
+
+.interface {
+    color: rgb(148, 147, 147);
+    padding-top: 3%;
+}
+
+@keyframes word {
+    0% {
+        margin-left: 0;
+    }
+
+    50% {
+        margin-left: 35%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+.jobName {
+    animation: word;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    color: #4CAF50;
+}
+
+.infoButton {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    border: none;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.personalImage {
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+}
+
+.about {
+    color: rgb(148, 147, 147);
+}
+
+.line {
+    width: 100%;
+    height: 10px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
+.paraAboutme {
+
+    text-align: justify;
+    padding: 5%;
+}
+
+.skills {
+    padding: 2%;
+}
+
+.nav-item:hover {
+    scale: 1.3;
+    transition: scale 1s;
+
+}
+
+#services {
+    background-color: #4CAF50;
+
+}
+
+.servicesCard {
+    padding-top: 2%;
+}
+
+#work {
+    background-color: rgb(238, 238, 238);
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.formContainer {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#contact {
+    background-color: #4CAF50;
+}
+
+.icons {
+    font-size: 10vw;
+    color: rgb(148, 147, 147);
+}
